@@ -1,20 +1,31 @@
 #Muestra en la consola los artículos y precios actuales
-Articulo_1=str("ZAPATOS")
-Precio_Art1=int(350000)
-Articulo_2=str("TENIS")
-Precio_Art2=int(280000)
-Articulo_3=str("CAMISETAS")
-Precio_Art3=int(175000)
-Articulo_4=str("JEANS")
-Precio_Art4=int(200000)
 
-"""
-print(Articulo_1 and Precio_Art1)
-print(Articulo_2)
-print(Articulo_3)
-print(Articulo_4)
-"""
+Articulo=["ZAPATOS", "TENIS","CAMISETAS","JEANS"]
+Price= [350000,280000,175000,200000]
+
+print("Precio de los articulos")
+print("El articulo ", Articulo[0], "cuesta ", Price[0])
+print("El articulo ", Articulo[1], "cuesta ", Price[1])
+print("El articulo ", Articulo[2], "cuesta ", Price[2])
+print("El articulo ", Articulo[3], "cuesta ", Price[3])
 
 #También mostrar el costo total de los cuatro artículos
-Total_4=int(Precio_Art1+Precio_Art2+Precio_Art3+Precio_Art4)
-print(Total_4)
+
+CostoTotal=(Price[0]+Price[1]+Price[2]+Price[3])
+print("el costo de los 4 articulos es:")
+print(CostoTotal)
+
+# el promedio de venta
+PROMEDIO= (CostoTotal/4)
+print(El promedio de los articulo es: )
+print(PROMEDIO)
+
+# Subir el precio de los Jeans en un 6.2%
+NuevoPrecioJeans=(Price[3]+6.2%)
+print(Los jean aunmentaron a: )
+print(NuevoPrecioJeans)
+
+#Disminuir el precio de los Zapatos en un 0.8%
+NuevoPrecioZapatos=(price[0]-0.8%)
+print(Los zapatons disminuyeron a: )
+print(NuevoPrecioZapatos)
