@@ -1,5 +1,7 @@
 #USAR UN CHAT
 
-Chat=str("JUAN")
+Nombre_usuario=str("JUAN")
 Estado_Chat=str("ACTIVO")
 Mensaje=str("HOLA")
+
+print(Mensaje)

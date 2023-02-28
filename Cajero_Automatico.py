@@ -8,3 +8,6 @@ Tipo_Cuenta= str("AHORRO")
 Saldo= int(250000)
 Cantidad_Retiro= int(5000)
 Saldo_Restante= (Saldo-Cantidad_Retiro)
+
+print("el retido fue exitoso, su saldo ahora es:")
+print(Saldo_Restante)
