@@ -1,4 +1,0 @@
-#HABLAR POR TELEFONO
-
-Estado=str("DISPONIBLE")
-Telefono=int(312452261)
