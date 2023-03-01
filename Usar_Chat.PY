@@ -4,4 +4,5 @@ Nombre_usuario=str("JUAN")
 Estado_Chat=str("ACTIVO")
 Mensaje=str("HOLA")
 
+print("el mensaje ha sido enviado con exito")
 print(Mensaje)
